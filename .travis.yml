@@ -2,4 +2,4 @@ language: ruby
 install:
   - gem install verify_urls
 script:
-  - verify_urls --file=awesome.md --error-failed
+  - verify_urls --file=readme.md --error-failed
